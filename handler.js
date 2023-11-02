@@ -201,7 +201,7 @@ export async function handler(chatUpdate) {
                     user.note = 0
                     
                 if (!isNumber(user.premium))
-                    user.premium = false
+                    user.premium = true
                 if (!isNumber(user.premiumTime))
                     user.premiumTime = 0
                 if (!isNumber(user.limitjoin))
@@ -282,7 +282,7 @@ export async function handler(chatUpdate) {
                     lastbunga: 0,
                     note: 0,
                     
-                    premium: false,
+                    premium: true,
                     premiumTime: 0,
                     limitjoin: 0,
                 }
